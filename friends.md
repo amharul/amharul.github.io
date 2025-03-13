@@ -17,7 +17,7 @@ Berikut teman-teman saya di kelas:
 8. [Anggi Sya'ban Nabila Batubara](https://angginabilabatubara.github.io/)
 9. [Balqis Misyia](https://balqismisyia.github.io/)
 10. [Cut Yumna Assyifa]()
-11. [Darmawan Sahputra](https://darmawansahputra1.github.io/)
+11. [M.Amharul Azhan](https://amharul.github.io/)
 12. [Dinda Eliza](https://dindaelz06.github.io/)
 13. [Farid Haiqal](https://fared08.github.io/)
 14. [Janrico Maulana Sofyan](https://janricomaulanas.github.io/)
