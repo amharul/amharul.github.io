@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg')no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+    font-size: larger
+  }
+  
+
+  /* Main Content */
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* Friends Section */
+  
+  .friends-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  
+  .friends-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .friend-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 14px 18px;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  
+  .friend-card a {
+    color: #141314;
+    text-decoration: none;
+  }
+  
+  .friend-card a:hover {
+    text-decoration: underline;
+    color: #f90202;
+  }
+  
+  /* Blog Section */
+  .blog-subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-left: 8px;
+    border-left: 4px solid #4caf50;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .blog-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgb(255, 3, 3);
+  }
+  
+  .blog-card a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-style: italic;
+    
+  }
+  
+  .blog-card a:hover {
+    text-decoration: underline;
+    color: #0e3fee;
+  }
+  
+  .blog-card p {
+    margin: 6px 0;
+    color: #000000;
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+
+  
