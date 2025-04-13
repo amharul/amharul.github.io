@@ -5,7 +5,7 @@ title: "HTML Link dan Lists"
 
 Penjelasan tentang Link dan Lists pada HTML.
 
-![HTML Link dan Lists](/assets/image/hahahha.jpg)
+---
 
 # **Penjelasan Lengkap tentang Link dan Lists pada HTML**
 
