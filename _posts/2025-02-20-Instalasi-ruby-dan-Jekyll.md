@@ -1,9 +1,10 @@
+```markdown
 ---
-layout : post
-title : "Instalasi Ruby dan Jekyll"
+layout: post
+title: "Instalasi Ruby dan Jekyll"
 ---
 
-Penjelasan tentang instalasi ruby dan jekyll
+Penjelasan tentang instalasi Ruby dan Jekyll.
 
 ---
 
@@ -29,10 +30,7 @@ Penjelasan tentang instalasi ruby dan jekyll
    g++ -v
    make -v
    ```
-   <p>  
-Jika belum terpasang, install terlebih dahulu dengan <strong>MinGW</strong> (untuk Windows) atau gunakan package manager seperti <code>apt</code> (untuk Linux).  
-</p>
-
+   Jika belum terpasang, install terlebih dahulu dengan **MinGW** (untuk Windows) atau gunakan package manager seperti `apt` (untuk Linux).  
 
 4. **Download Ruby Installer**  
    - Buka link berikut: [https://rubyinstaller.org](https://rubyinstaller.org)  
@@ -63,8 +61,7 @@ Jika belum terpasang, install terlebih dahulu dengan <strong>MinGW</strong> (unt
 
 ### c) **Install Visual Studio Code**  
 1. **Download VSCode Installer**  
-   - Buka link berikut: [https://code 
-   .visualstudio.com](https://code.visualstudio.com)  
+   - Buka link berikut: [https://code.visualstudio.com](https://code.visualstudio.com)  
    - Pilih installer sesuai dengan sistem operasi (contoh: **64-bit untuk Windows**).  
 
 2. **Lakukan Instalasi**  
@@ -74,8 +71,7 @@ Jika belum terpasang, install terlebih dahulu dengan <strong>MinGW</strong> (unt
 
 ### d) **Install Google Chrome**  
 1. **Download Chrome Installer**  
-   - Buka link berikut: [https://www.
-   google.com/chrome](https://www.google.com/chrome)    
+   - Buka link berikut: [https://www.google.com/chrome](https://www.google.com/chrome)    
    - Klik tombol **Download Chrome**.  
    - Ikuti instruksi instalasi hingga selesai.  
 
@@ -102,8 +98,7 @@ Jika belum terpasang, install terlebih dahulu dengan <strong>MinGW</strong> (unt
 ### **3. Clone Repository ke Lokal**  
 Buka terminal atau Command Prompt, lalu jalankan:  
 ```bash
-git clone https://github.com/
-username/username.github.io.git
+git clone https://github.com/username/username.github.io.git
 ```
 **(Ganti `username` dengan username GitHub kamu)**  
 
@@ -146,8 +141,7 @@ Buat file baru bernama `index.html` di dalam folder proyek, lalu isi dengan kode
 </head>
 <body>
   <h1>Welcome to My Jekyll Site!</h1>
-  <p>This is a sample site created with
-     Jekyll and GitHub Pages.</p>
+  <p>This is a sample site created with Jekyll and GitHub Pages.</p>
 </body>
 </html>
 ```
@@ -222,8 +216,7 @@ jobs:
         run: bundle install
 
       - name: Build site
-        run: JEKYLL_ENV=production bundle exec 
-        jekyll build
+        run: JEKYLL_ENV=production bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -235,8 +228,7 @@ jobs:
 3. Commit dan push ke GitHub:  
 ```bash
 git add .
-git commit -m "Add GitHub Actions for 
-Jekyll deployment"
+git commit -m "Add GitHub Actions for Jekyll deployment"
 git push origin main
 ```
 
@@ -258,4 +250,4 @@ jekyll serve --host 0.0.0.0 --port 4001
 ```
 - Jika build gagal, cek apakah Ruby dan Bundler sudah terpasang dengan benar.  
 - Jika GitHub Pages tidak memuat, pastikan branch utama sudah diatur ke `main` di pengaturan repository.
-- 
+```
